@@ -1,0 +1,292 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="overlay">
+        <div class="popup">
+            <h2>Access all cookies</h2>
+            <button class="close black" title="Закрыть" onclick="document.getElementById('overlay').style.display='none';">Принять файлы Cookies</button>
+        </div>
+    </div>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="header__logo">
+                <img src="" alt="" class="logo">
+            </a>
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#1" class="menu__link">NEW ARRIVALS</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#2" class="menu__link">YOUNG'S FAVORITE</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#3" class="menu__link">CONTACTS</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="first_screen">
+            <div class="maintextandnutton">
+                <div class="flex">
+                    <h1 class="blackh1">LET’S EXPLORE</h1>
+                    <h1 class="yellowh1">UNIQUE</h1> 
+                    <h1 class="blackh1">CLOTHES.</h1>
+                    <p class="p32">Live for Influential and Innovative fashion!</p>
+                    <button class="black">Shop Now</button>
+                </div>
+            </div>
+            <div>
+                <img src="img\incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1.png" alt="" class="main img">
+            </div>
+        </div>
+    </div>
+    <div class="second_screen">
+        <div class="container">
+            <img src="img\brend (1).png" alt="" class="brand">
+            <img src="img\brend (2).png" alt="" class="brand">
+            <img src="img\brend (3).png" alt="" class="brand">
+            <img src="img\brend (4).png" alt="" class="brand">
+            <img src="img\brend (5).png" alt="" class="brand">
+            <img src="img\brend (6).png" alt="" class="brand">
+        </div>
+    </div>
+    <div class="container">
+        <div class="third_screen" id="1">
+            <h2>NEW ARRIVALS</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img\woman (1).png" alt="" class="cardimg">
+                    <div class="textimg">
+                        <div class="textcard">
+                            <div class="p32">Hoodies & Sweetshirt</div>
+                            <p class="grey">Explore Now!</p>
+                        </div>
+                        <img src="img\Arrow 1icons.svg" alt="" class="arrow">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\woman (2).png" alt="" class="cardimg">
+                    <div class="textimg">
+                        <div class="textcard">
+                            <div class="p32">Hoodies & Sweetshirt</div>
+                            <p class="grey">Explore Now!</p>
+                        </div>
+                        <img src="img\Arrow 1icons.svg" alt="" class="arrow">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\woman (3).png" alt="" class="cardimg">
+                    <div class="textimg">
+                        <div class="textcard">
+                            <div class="p32">Hoodies & Sweetshirt</div>
+                            <p class="grey">Explore Now!</p>
+                        </div>
+                        <img src="img\Arrow 1icons.svg" alt="" class="arrow">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="item">
+                <img src="img/moda (1).jpg">
+            </div>
+            <div class="item">
+                <img src="img/moda (2).jpg">
+            </div>
+            <div class="item">
+                <img src="img/moda (3).jpg">
+            </div>
+            <a class="previous" onclick="previousSlide()">&#10094;</a>
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <div class="third_screen copy" id="2">
+            <h2>Young’s Favourite</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img\Rectangle 51.png" alt="" class="cardimg">
+                    <div class="textimg">
+                        <div class="textcard">
+                            <div class="p32">Trending on instagram</div>
+                            <p class="grey">Explore Now!</p>
+                        </div>
+                        <img src="img\Arrow 1icons.svg" alt="" class="arrow">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\Rectangle 49.png" alt="" class="cardimg">
+                    <div class="textimg">
+                        <div class="textcard">
+                            <div class="p32">Hoodies & Sweetshirt</div>
+                            <p class="grey">Explore Now!</p>
+                        </div>
+                        <img src="img\Arrow 1icons.svg" alt="" class="arrow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="filtersPadding">
+        <div id="myBtnContainer">
+            <button class="black btn active" onclick="filterSelection('all')">SHOW ALL</button>
+            <button class="black btn" onclick="filterSelection('sum')">SUMMER</button>
+            <button class="black btn" onclick="filterSelection('win')">WINTER</button>
+            <button class="black btn" onclick="filterSelection('spr')">SPRING</button>
+            <button class="black btn" onclick="filterSelection('au')">AUTUMN</button>
+        </div>
+
+        <div class="filterDiv sum">T-SHIRT</div>
+        <div class="filterDiv au spr">SHOES</div>
+
+        <div class="filterDiv au">UMBRELLA</div>
+        <div class="filterDiv sum win">TROUSERES</div>
+        <div class="filterDiv win">SCARF</div>
+    </div>
+    <div class="container">
+        <div class="sixth_screen">
+            <div class="maintextandnutton">
+                <div class="flex">
+                    <h2>DOWNLOAD APP & GET THE VOUCHER!</h2>
+                    <p class="grey">Get 30% off for first transaction using Rondovision mobile app for now.</p>
+                    <div class="loading">
+                        <img src="img\Rectangle 55.png" alt="" class="ggl">
+                        <img src="img\Rectangle 18.png" alt="" class="ggl">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="img/app.png" alt="" class="main img">
+            </div>
+        </div>
+        <div class="tabs" id="3">
+            <div class="tabs__nav">
+                <button class="tabs__nav-btn" type="button" data-tab="#tab_1">INSTAGRAM</button>
+                <button class="tabs__nav-btn" type="button" data-tab="#tab_2">VK</button>
+                <button class="tabs__nav-btn" type="button" data-tab="#tab_3">TWITTER</button>
+            </div>
+            <div class="tabs__content">
+                <div class="tabs__item" id="tab_1">
+                    <p class="grey">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div>
+    
+                <div class="tabs__item" id="tab_2">
+                    <p class="grey">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
+    
+                <div class="tabs__item" id="tab_3">
+                    <p class="grey">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <h2 class="label">What is fasion???</h2>
+            <div class="content">
+                <p class="grey">
+                    Fashionable clothing is clothing that 
+                    corresponds to the latest trends and fashion trends. 
+                    It may vary for different age groups and different social 
+                    groups. Fashionable clothing reflects modern trends, new 
+                    ideas, and concepts, conveying them through style, material,
+                    color, and visual design.
+                    Each season, new collections of fashion designers appear, 
+                    presenting different styles of clothing from classic to 
+                    avant-garde. Currently, fashion has become very dynamic, 
+                    and new directions and trends appear both on the streets 
+                    of major cities and at major fashion shows.
+                    Fashionable clothing is created to allow each person to 
+                    express themselves and their individual style. This can 
+                    be seen as either a way of belonging to a certain group 
+                    or expressing individuality and originality.
+                    In general, fashionable clothing is not just a functional 
+                    element of a wardrobe, but also an expression of modern 
+                    culture, its history, and trends. Each person can choose 
+                    their style and be trendy, while still not forgetting their
+                    
+                    individuality and comfort.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="seventh_screen">
+        <div class="container">
+            <h1 class="blackh1">JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h1>
+            <div class="p32">Type your email down below and be young wild generation</div>
+            <div class="forms">
+                <input type="text" placeholder="Add your email here">
+                <input id = "blck"type="button" value="SEND">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="logo_sm">
+                <div class="logodiv">
+                    <img src="img\FASHION.svg" alt="" class="logo">
+                </div>
+                <p class="grey">
+                    Complete your style with awesome clothes from us.
+                </p>
+                <div class="sms">
+                    <div class="sm">
+                        <img src="img\Vectoricons-1.svg" alt="">
+                    </div>
+                    <div class="sm">
+                        <img src="img\Vectoricons-2.svg" alt="">
+                    </div>
+                    <div class="sm">
+                        <img src="img\Vectoricons.svg" alt="">
+                    </div>
+                    <div class="sm">
+                        <img src="img\inicons.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="greys">
+                <a href="" class="grey">Company</a>
+                <a href="" class="grey">About</a>
+                <a href="" class="grey">Contact us</a>
+                <a href="" class="grey">Support</a>
+                <a href="" class="grey">Careers</a>
+            </div>
+            <div class="greys">
+                <a href="" class="grey">Quick Link</a>
+                <a href="" class="grey">Share Location</a>
+                <a href="" class="grey">Orders Tracking</a>
+                <a href="" class="grey">Size Guide</a>
+                <a href="" class="grey">FAQs</a>
+            </div>
+            <div class="greys">
+                <a href="" class="grey">Legal</a>
+                <a href="" class="grey">Terms & conditions</a>
+                <a href="" class="grey">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
