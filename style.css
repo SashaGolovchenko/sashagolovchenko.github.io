@@ -1,0 +1,66 @@
+section{
+    padding: 120px 0px;
+}
+.proress_point{
+    border-bottom: 1px solid #000;
+}
+.itd_img{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+a{
+    text-decoration: none;
+}
+.carousel{
+    height: 10%;
+}
+
+.rew{
+    padding: 10px;
+}
+.bor{
+    border: 1px solid #000;
+    padding: 20px;
+}
+.rtd{
+    padding: 12px 20px;
+    background-color: #212529;
+    color: #fff;
+}
+.rtd:hover{
+    background-color: #183653;
+    color: #ffffff
+}
+
+.rdt{
+    padding: 12px 20px;
+    background-color: #DDD7C0;
+    color: #000;
+}
+.rdt:hover{
+    background-color: #878375;
+    color: #000
+}
+@media screen and (max-width: 575px) {
+    .trt{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 10px;
+    }
+    p, label, input, a, #text{
+        font-size: 10px;
+    }
+    button{
+        font-size: 10px!important;
+    }
+    .menu_points{
+        opacity: 0;
+    }
+    section{
+        padding: 50px 0px;
+    }
+    .carousel-inner{
+        margin-bottom: 50px;
+    }
+}
